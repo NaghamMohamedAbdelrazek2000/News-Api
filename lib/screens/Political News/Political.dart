@@ -2,10 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
-
 import '../../model/PoliticalNewsModel/PoliticalModel.dart';
 import 'Political Controller.dart';
-
 class PoliticalNews extends StatelessWidget {
   PoliticalNews({Key? key}) : super(key: key);
   PoliticalController controller = Get.put(PoliticalController());
